@@ -21,7 +21,8 @@
     --text-color: hsl(0,0%,91%);
 }
 ::selection{
-    color: var(--text-color);
+    color: #fff;
+    /*var(--text-color);*/
     background: var(--main-color);
 }
 section {
@@ -258,7 +259,7 @@ header{
 .home-text h1 {
     font-size: 2.4rem;
     text-transform: uppercase;
-    color: var(--dark-color);
+    color: var(--main-color);;
     margin-bottom: 1rem;
 }
 .btn {
